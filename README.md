@@ -1,76 +1,65 @@
-# 🏥 KPPMCH Patient Register
-
-**KPPMCH Patient Register** is a **patient registration web application** developed for  
-**Kamphaeng Phet Municipality Community Hospital (KPPMCH)**.  
-
-This platform enables patients to **register their personal information online before arriving at the hospital**, significantly **reducing wait times at the registration counter** and **minimizing paperwork**.  
-
-By streamlining the registration process, the system improves both **patient experience** and **hospital workflow efficiency**, supporting KPPMCH’s mission to provide **accessible, modern, and patient-centered healthcare services**.  
+# KPPMCH Patient Register
+**Hospital Digital Transformation Project**
 
 ---
 
-## 🌐 Live Demo
-👉 [kppmch-register.vercel.app/PatientRegister](https://kppmch-register.vercel.app/PatientRegister)
-
-The demo environment demonstrates how patients can complete their registration online.  
-Once submitted, the information can be reviewed and processed by hospital staff seamlessly.  
-
----
-
-## 🖼️ Preview
-![App Preview](https://kppmch-register.vercel.app/og-image.png)  
-*(Optional: replace with an actual screenshot of the registration form.)*  
+### Project Specification
+| Category | Detail |
+| :--- | :--- |
+| **Project Name** | KPPMCH Patient Register |
+| **Organization** | Kamphaeng Phet Municipality Community Hospital |
+| **Platform Type** | Patient Intake & Registration Web Application |
+| **Deployment** | [kppmch-register.vercel.app](https://kppmch-register.vercel.app/PatientRegister) |
 
 ---
 
-## ✨ Key Features
-
-### For Patients
-- **Online Registration** – Fill in personal information anywhere, anytime before visiting  
-- **Reduced Waiting Time** – No need to queue for basic data entry at the hospital  
-- **Mobile-Friendly Design** – Works smoothly on smartphones, tablets, and desktops  
-- **Convenience & Accessibility** – User-friendly interface with clear navigation  
-
-### For Hospital Staff
-- **Accurate Patient Data** – Digital submission reduces errors from handwriting/manual entry  
-- **Faster Intake Process** – Staff can pre-check patient details before arrival  
-- **Scalable System** – Can integrate with future hospital information systems (HIS/EHR)  
-- **Paperless Operation** – Supports eco-friendly and efficient hospital management  
+### Technical Infrastructure
+| Component | Technology |
+| :--- | :--- |
+| **Core Framework** | Next.js (App Router), React |
+| **Styling Engine** | Tailwind CSS |
+| **Deployment Platform** | Vercel |
+| **Architectural Pattern** | Clean Architecture |
+| **Integrations** | RESTful API, LINE Messaging API |
 
 ---
 
-## ⚡ Tech Stack
-
-The system is built with modern web technologies to ensure performance and maintainability:
-
-- [Next.js](https://nextjs.org/) – React framework for server-side rendering and SEO-friendly apps  
-- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework for fast, responsive UI development  
-- [Vercel](https://vercel.com/) – Hosting and deployment platform with automatic builds and global CDN  
-
-**Additional Advantages:**
-- 🚀 Fast deployment and continuous integration with Vercel  
-- 📱 Responsive design out-of-the-box with Tailwind CSS  
-- 🔐 Secure environment with HTTPS by default  
-- 🛠️ Easy scalability for future enhancements  
+### Functional Impact
+| Focus Area | Objective and Result |
+| :--- | :--- |
+| **Digitization** | Replaced legacy paper registration with 24/7 digital intake. |
+| **Workflow Efficiency** | Reduced patient waiting time at physical counters. |
+| **Data Integrity** | Enhanced data accuracy via client-side validation. |
+| **Modernization** | Improved hospital accessibility through mobile-first design. |
 
 ---
 
-## 📦 Installation
+### System Features
+| Feature | Description |
+| :--- | :--- |
+| **Online Registration** | Remote personal information submission before arrival. |
+| **Responsive Design** | Optimized for mobile, tablet, and desktop browsers. |
+| **Security** | Production-ready environment with SSL/HTTPS encryption. |
+| **Modularity** | Developed for seamless integration with Future HIS systems. |
 
-You can run this project locally for development or testing:
+---
 
-```bash
-# 1. Clone repository
-git clone https://gitlab.com/USERNAME/kppmch-register.git
+### Installation Guide
+| Action | Command |
+| :--- | :--- |
+| **Clone Repository** | `git clone https://github.com/Ratchanon2318/kppmch-register.git` |
+| **Install Dependencies** | `npm install` |
+| **Run Development** | `npm run dev` |
 
-# 2. Navigate into project directory
-cd kppmch-register
+---
 
-# 3. Install dependencies
-npm install
+### Contact & Professional Profile
+| Channel | Detail |
+| :--- | :--- |
+| **Software Engineer** | Ratchanon Noknoy |
+| **LinkedIn** | [linkedin.com/in/ratchanon-noknoy](https://www.linkedin.com/in/ratchanon-noknoy/) |
+| **GitHub** | [github.com/Ratchanon2318](https://github.com/Ratchanon2318) |
+| **Portfolio** | [ratchanonnoknoy.vercel.app](https://ratchanonnoknoy.vercel.app/) |
+| **Alternative Site** | [ratchanon-portfolio.onrender.com](https://ratchanon-portfolio.onrender.com/) |
 
-# 4. Run development server
-npm run dev
-
-# 5. Open in browser
-http://localhost:3000
+---
